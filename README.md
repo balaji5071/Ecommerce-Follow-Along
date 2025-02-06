@@ -28,7 +28,7 @@ Currently, two official plugins are available:
   Tech Stack
 - Mongo DB, Express JS, Nodemon
 
-# Milestone 4 - User Model, Controller & File Uploads  
+# Milestone 4 
 
 
 ### Created the User Model  
