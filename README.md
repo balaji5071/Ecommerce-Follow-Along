@@ -27,3 +27,24 @@ Currently, two official plugins are available:
 - linked mongo DB with the backend
   Tech Stack
 - Mongo DB, Express JS, Nodemon
+
+# Milestone 4 - User Model, Controller & File Uploads  
+
+
+### Created the User Model  
+- Defined a schema for storing user data (name, email, password).  
+- Used **SQLAlchemy (PostgreSQL/MySQL)** or **Pydantic (MongoDB)** for database modeling.  
+
+###  Implemented the User Controller  
+- Handled user actions like **registration and retrieving user data**.  
+- Set up API routes to interact with the database.  
+
+### Enabled File Uploads  
+- Configured file uploads for **profile pictures**.  
+- Used **FastAPI’s `UploadFile`** or **Flask’s `werkzeug`** for handling and storing images.  
+
+###  Updated Documentation  
+- Added this progress summary to **README.md**.  
+- Pushed the updated code to **GitHub**.  
+
+
