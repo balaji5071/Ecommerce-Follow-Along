@@ -1,9 +1,9 @@
 const app =require('./app')
 const connectDb=require('./db/db')
+
+
 connectDb()
 
-
- 
 
 process.on("uncaughtException",(err)=>{
     console.log(`error: ${err.message}`)
