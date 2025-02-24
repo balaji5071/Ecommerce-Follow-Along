@@ -49,4 +49,3 @@
 ## Milestone-10
 - Created product schema
 - Created an end point to validate and store product details in mongodb.
-- 
