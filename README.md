@@ -1,50 +1,51 @@
-# React + Vite
+# E-commerce
+## Milestone-1
+- got overview of the e-commerce project Tech Stack.
+- MongoDB,nodeJS,expressJS,reactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Milestone-2
+- worked on Login Page
+- understood the User authentication
+- structure of react
+- Use of Tailwind css
+- Understood react routing
+- Used React-Router-DOM
 
-Currently, two official plugins are available:
+## Milestone-3
+- Implemented Express on the backend
+- Used MongoDBAtlas to create a cluster
+- Used mongoose to connect MongoDb with the backend
+- Made some error-handling changes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Milestone-4
+- Created User Model
+- Used JsonWebToken and bcrypt to encrypt password
+- Created multer file
 
+## Milestone-5
+- Created Signup page
+- Used TailwindCSS to make it responsive
 
+## Milestone-6
+- Use bcrypt to hash the user's password during signup.
+- Save the hashed password in the database instead of plain text.
+- Saved all the user's data in the database while ensuring that the password remains encrypted.
 
-## Milestone 1
+## Milestone-7
+- Accept user credentials (email/username and password).
+- Retrieve the corresponding user from the database.
+- ## Validate Password:
+- Use bcrypt to hash the entered password.
+- Compare it with the stored hashed password for authentication.
 
-- got overview of the e-commerce project
-  Tech Stack
-  - MongoDb, nodeJS, express, react
+## Milestone-8
+- Designed a reusable card component with props for product details (e.g., name, image, price).
+- Added a grid layout or flexbox for displaying multiple cards neatly.
 
-## Milestone 2
+## Milestone-9
+- Create the form for products
+- This form will take multiple product images images as input
 
-- knew how to use tailwind css and created user login page
-  Tech Stack
-  - React , Tailwind css,nodeJs , express
-
-## Milestone 3
-
-- created an server
-- linked mongo DB with the backend
-  Tech Stack
-- Mongo DB, Express JS, Nodemon
-
-# Milestone 4 
-
-
-### Created the User Model  
-- Defined a schema for storing user data (name, email, password).  
-- Used **SQLAlchemy (PostgreSQL/MySQL)** or **Pydantic (MongoDB)** for database modeling.  
-
-###  Implemented the User Controller  
-- Handled user actions like **registration and retrieving user data**.  
-- Set up API routes to interact with the database.  
-
-### Enabled File Uploads  
-- Configured file uploads for **profile pictures**.  
-- Used **FastAPI’s `UploadFile`** or **Flask’s `werkzeug`** for handling and storing images.  
-
-###  Updated Documentation  
-- Added this progress summary to **README.md**.  
-- Pushed the updated code to **GitHub**.  
-
-
+## Milestone-10
+- Created product schema
+- Created an end point to validate and store product details in mongodb.
