@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 const jwt=require('jsonwebtoken')
-// const bcrypt=require('bcryptjs')
+const bcrypt=require('bcryptjs')
 
 
 const userSchema = new mongoose.Schema({
@@ -22,10 +22,25 @@ const userSchema = new mongoose.Schema({
 avatar:{
     id:{type:String},
     url:{type:String}
-},
+}, cart: [
+    {
+      productId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Product",
+        required: true,
+      },
+      quantity: {
+        type: Number,
+        required: true,
+        min: 1,
+        default: 1,
+      },
+    },
+  ],
 cretedAt:{type:Date,default:Date.now()}
 
 })
+
 
 userSchema.pre('save',async function(next){
 if(!this.isModified("password")){
@@ -35,11 +50,11 @@ this.password= await bcrypt.hash(this.password,10)
 
 })
 userSchema.methods.getJwtToken=function(){
-    return jwt.sign({id:this._id} ,process.env.JWT_TOKEN, {expiration:process.env.JWT_EXPIRES})
+    return jwt.sign({id:this._id} ,process.env.JWT_SECRET, {expiresIn:process.env.JWT_EXPIRES})
 }
 
 userSchema.methods.comparePassword=async function(enterPassword){
- return await bcrypt.compare(enterPassword,this.Password)   
+ return await bcrypt.compare(enterPassword,this.password)   
 }
 
 
