@@ -51,6 +51,9 @@ Wrote endpoint to get products inside cart for user
 
 ### Milestone -19 
 Created a Cart Page to display products with + and - buttons for quantity adjustment.
+
 Implemented backend API to handle quantity updates (increase/decrease).
+
 Integrated frontend and backend for dynamic cart updates.
+
 Pushed code to GitHub and updated README.md for submission. 
