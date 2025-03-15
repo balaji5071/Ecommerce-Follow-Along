@@ -57,3 +57,10 @@ Implemented backend API to handle quantity updates (increase/decrease).
 
 Integrated frontend and backend for dynamic cart updates.
 
+
+### Milestone -20
+
+we created a backend  endpoint for to sent the user data .
+
+created a frontend profile page   and  we display the address and  user can add  the  address .
+
