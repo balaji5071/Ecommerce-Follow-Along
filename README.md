@@ -64,3 +64,16 @@ we created a backend  endpoint for to sent the user data .
 
 created a frontend profile page   and  we display the address and  user can add  the  address .
 
+### Milestone -21
+
+we created address form in frontend page
+we Created an state that will store input address
+when we click on add address in profile it should navigate to this form page.
+
+
+
+### Milestone -22
+
+we created an endpoint that will receive the address from address form in frontend
+Add the address to the address array inside user collection.
+
