@@ -77,3 +77,11 @@ when we click on add address in profile it should navigate to this form page.
 we created an endpoint that will receive the address from address form in frontend
 Add the address to the address array inside user collection.
 
+
+
+
+
+### Milestone -23
+I created an placeorder button inside cart page and navigate to select address page when clicked.
+I created select address page that will display all the available address and have an option to select one address.
+ANf also i wrote  an backend endpoint that will send all the addresses of the user.
