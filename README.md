@@ -85,3 +85,10 @@ Add the address to the address array inside user collection.
 I created an placeorder button inside cart page and navigate to select address page when clicked.
 I created select address page that will display all the available address and have an option to select one address.
 ANf also i wrote  an backend endpoint that will send all the addresses of the user.
+
+### Milestone-28
+
+In my-orders page for every order add cancel order button
+If the order is already canceled this button should not be displayed
+You need to create an endpoint that will receive the order-id
+Get the order using this id and mark the status canceled and save
