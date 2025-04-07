@@ -92,3 +92,12 @@ In my-orders page for every order add cancel order button
 If the order is already canceled this button should not be displayed
 You need to create an endpoint that will receive the order-id
 Get the order using this id and mark the status canceled and save
+
+### Milestone-29
+
+We created a PayPal developer account and accessed the sandbox dashboard.
+Copied and saved the sandbox account UserID and Client ID.
+On the order confirmation page, we added two radio buttons: COD and Online Payment.
+When "Online Payment" is selected, PayPal buttons will be shown dynamically.
+This sets up the UI for payment selection.
+In the next milestone, we’ll integrate actual PayPal payment button functionality using the Client ID.
