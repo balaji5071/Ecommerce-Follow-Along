@@ -99,5 +99,7 @@ We created a PayPal developer account and accessed the sandbox dashboard.
 Copied and saved the sandbox account UserID and Client ID.
 On the order confirmation page, we added two radio buttons: COD and Online Payment.
 When "Online Payment" is selected, PayPal buttons will be shown dynamically.
-This sets up the UI for payment selection.
-In the next milestone, we’ll integrate actual PayPal payment button functionality using the Client ID.
+### Milestone-30
+After  we creating PayPal account and getting the UserID inside sandbox account.
+we implemented online payment using PayPal API using the client key we  created earlier.
+And download NPM package called react-paypal-js that will provide an component called PayPalScriptProvider which will display online payment methods like credit or debit card etc..,
