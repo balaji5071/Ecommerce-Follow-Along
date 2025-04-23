@@ -103,3 +103,25 @@ When "Online Payment" is selected, PayPal buttons will be shown dynamically.
 After  we creating PayPal account and getting the UserID inside sandbox account.
 we implemented online payment using PayPal API using the client key we  created earlier.
 And download NPM package called react-paypal-js that will provide an component called PayPalScriptProvider which will display online payment methods like credit or debit card etc..,
+
+### Milestone-31
+
+
+
+
+### Milestone-32
+
+
+
+### Milestone-33
+
+
+
+### Milestone-34
+Getting  the token from the browser cookie and sending  it to the server
+In backend we wrote  an middleware function to validate that JWT token
+### Milestone-35
+we Deploy your backend in render.
+we replace the localhost in frontend with the backend deployment link.
+we Deploy the frontend netlify.
+
