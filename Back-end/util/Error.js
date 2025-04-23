@@ -1,9 +1,11 @@
-class ErrorHandler extends Error{
-    constructor(message,statuscode){
-        supper(message)
-        this.statuscode=statuscode;
-
-        Error.captureStackTrace(this,this.constructor)// captureStackatarace will gives main code only  instead on all sub errors .
+class  ErrorHandler extends Error{
+    constructor(message,statusCode){
+        super(message)
+        this.statusCode = statusCode
+                                                       
+        Error.captureStackTrace(this,this.constructor);
     }
+
 }
-module.exports=ErrorHandler;
+
+module.exports= ErrorHandler
